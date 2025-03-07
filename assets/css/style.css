@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --second-bg-color: #000000;
+    --text-color: #000000;
+    --second-text-color: #ffffff;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Assistant', sans-serif;
+  }
+
+.header {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 180px;
+    background-color: var(--second-bg-color);
+}
+
+.logo {
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--second-text-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.social-links {
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.social-links a {
+    color: var(--second-text-color);
+  }
+
+.social-link {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
